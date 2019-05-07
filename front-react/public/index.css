@@ -1,0 +1,19 @@
+.thumbnail img {
+  height:250px!important;
+  width:100%!important;
+}
+
+.modal-body img {
+  height:250px!important;
+  width:100%!important;
+}
+
+div.container span {
+  color: #ffffff;
+  background-color: #e74e96;
+}
+
+footer {
+  margin: 20px;
+}
+
