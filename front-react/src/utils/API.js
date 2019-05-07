@@ -7,13 +7,13 @@ const headers = {
 }
 const header = { 
     method: 'GET',
-    headers: headers,
+    headers,
     mode: 'cors',
     cache: 'default' 
 };
 export default {
     dashboard : async function() {
-        const results = await axios.get(burl + '/peaks', header);
+        const results = await axios.get(burl + '/marvel', header);
         return results.data.data.results;
     }
 }

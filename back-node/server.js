@@ -62,7 +62,7 @@ myRouter.route('/')
         res.json({message : "Bienvenue sur la page Marouen ", methode : req.method});
     });
 
-myRouter.route('/peaks')
+myRouter.route('/marvel')
     .get(async function(req,res){ 
         const allCharacters = await marvelCharacters.getAllCharacters();
         res.status(allCharacters.code).json(allCharacters)
